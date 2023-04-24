@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container, .container1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container1 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.head {
+	margin-top: 20px;
+}
+
+.content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.reg, .log {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+button {
+	margin-top: 7px;
+}
